@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pedidos"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="@string/Pedidos" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="@string/Serviços" />
+        <item
+            android:id="@+id/nav_edit"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/Editar" />
+
+    </group>
+
+    <item android:title="@string/Mais">
+        <menu>
+            <item
+                android:id="@+id/nav_assinar"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="@string/Assinar" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="@string/Ajuda" />
+            <item
+                android:id="@+id/nav_config"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="@string/Configurações" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="@string/LogOut" />
+        </menu>
+    </item>
+
+</menu>
